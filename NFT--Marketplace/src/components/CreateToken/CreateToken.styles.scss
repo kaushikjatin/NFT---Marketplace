@@ -1,0 +1,37 @@
+.file_form{
+    margin: auto auto;
+    width: 40%;
+    margin-top: 10%;
+    border: 2px solid black;
+    padding: 30px 30px;
+    border-radius: 25px;
+    background-color:rgb(210,213,214);
+
+    @media only screen and (max-width:660px){
+        width: 95%;
+        margin-top: 20%;
+    }
+
+    .submit_button{
+        margin: auto auto;
+        width: 40%;
+    }
+
+    .progress_bar{
+        margin-top: 20px;
+    }
+
+    .file_status_message{
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 20px;
+        color: green;
+    }
+
+    .file_status_message2{
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 20px;
+        color: red;
+    }
+}

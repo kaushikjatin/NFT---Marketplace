@@ -1,0 +1,63 @@
+.fullinfo
+{
+    display: flex;
+    justify-content:space-around;
+
+    .image 
+    {
+        display: inline-block;;
+        width: 700px;
+        max-height: 500px;
+    }
+
+    .rightsideinfo
+    {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+
+        .assetname 
+        {
+            font-size: 50px;
+            text-decoration: underline;
+        }
+
+        .creator_and_owner
+        {
+            font-size: 15px;
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: space-around;
+
+            .creator 
+            {
+                display: flex;
+                flex-direction: column;
+            }
+
+        }
+
+        .description 
+        {
+            font-size: 20px;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+.secondcomponent 
+{
+    display: flex;
+    justify-content: space-around;
+    .leftcomponent 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .rightcomponent 
+    {
+        width: 40%;
+    }
+}
